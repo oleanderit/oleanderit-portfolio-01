@@ -1,10 +1,10 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Col, Row } from 'react-bootstrap';
 import { EffectCards } from "swiper";
 import "swiper/css";
 import "swiper/css/effect-cards";
-import "./HomePage.css"
+import { Swiper, SwiperSlide } from "swiper/react";
+import "./HomePage.css";
 
 const Homepage = () => {
     return (
