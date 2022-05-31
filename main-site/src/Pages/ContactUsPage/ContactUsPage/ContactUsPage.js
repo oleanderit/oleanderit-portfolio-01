@@ -1,10 +1,9 @@
-import React from 'react';
-
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
 const ContactUsPage = () => {
+    
     return (
-        <div>
-            <h1>This is Contact Us Page</h1>
-        </div>
+         <h1>WElcome this contact Page</h1>
     );
 };
 
