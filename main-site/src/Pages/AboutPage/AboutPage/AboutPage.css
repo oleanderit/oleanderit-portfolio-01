@@ -1,0 +1,283 @@
+.item1{
+    color:#0b5be0;
+}
+.item1:hover{
+    color:black;
+}
+.item2:hover{
+    color:#0b5be0;
+}
+.item3{
+
+margin-top: 20px;
+    color: gray;
+    text-align: justify;
+
+}
+/* ------------------------------------------------- */
+.progressBackground{
+background-image:  linear-gradient(180deg, #082AFCA6 0%, #0120E1 100%);
+padding: 40px;
+margin-top: 50px;
+margin-bottom: 10px;
+}
+
+.box .percent
+{
+  width:150px;
+  height:150px;
+  position:relative;
+}
+.box .percent svg
+{
+  width:150px;
+  height:150px;
+  position:relative;
+}
+.box .percent svg circle
+{
+  width:150px;
+  height:150px;
+  fill:none;
+  stroke-width:10;
+  stroke:#000;
+  transform:translate(5px,5px);
+  stroke-dasharray:440;
+  stroke-dashoffset:440;
+  stroke-linecap:round;
+}
+.box .percent svg circle:nth-child(1)
+{
+  stroke-dashoffset:0;
+  stroke:#0120E1;
+}
+.box .percent svg circle:nth-child(2)
+{
+  stroke-dashoffset:calc(440 - (440 * 80) / 100);
+  stroke:white;
+  
+  /* #03a9f4; */
+}
+
+.box .percent .num
+{
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:absolute;
+  color:white;
+}
+.box .percent .num h2
+{
+  font-size:48px;
+}
+.box .percent .num h2 span
+{
+  font-size:24px;
+}
+.box .text
+{
+  padding: 10px 0 0;
+  color:#999;
+  font-weight:700;
+  letter-spacing:1px;
+}
+ /* second box */
+
+ .box2 .percent
+{
+  width:150px;
+  height:150px;
+  position:relative;
+}
+.box2 .percent svg
+{
+  width:150px;
+  height:150px;
+  position:relative;
+}
+.box2 .percent svg circle
+{
+  width:150px;
+  height:150px;
+  fill:none;
+  stroke-width:10;
+  stroke:#000;
+  transform:translate(5px,5px);
+  stroke-dasharray:440;
+  stroke-dashoffset:440;
+  stroke-linecap:round;
+}
+.box2 .percent svg circle:nth-child(1)
+{
+  stroke-dashoffset:0;
+  stroke:#0120E1;
+}
+.box2 .percent svg circle:nth-child(2)
+{
+  stroke-dashoffset:calc(440 - (440 * 75) / 100);
+  stroke:white;
+}
+
+.box2 .percent .num
+{
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:absolute;
+  color:white;
+}
+.box2 .percent .num h2
+{
+  font-size:48px;
+}
+.box2 .percent .num h2 span
+{
+  font-size:24px;
+}
+.box2 .text
+{
+  padding: 10px 0 0;
+  color:#999;
+  font-weight:700;
+  letter-spacing:1px;
+}
+
+/* box three */
+.box3 .percent
+{
+  width:150px;
+  height:150px;
+  position:relative;
+}
+.box3 .percent svg
+{
+  width:150px;
+  height:150px;
+  position:relative;
+}
+.box3 .percent svg circle
+{
+  width:150px;
+  height:150px;
+  fill:none;
+  stroke-width:10;
+  stroke:#000;
+  transform:translate(5px,5px);
+  stroke-dasharray:440;
+  stroke-dashoffset:440;
+  stroke-linecap:round;
+}
+.box3 .percent svg circle:nth-child(1)
+{
+  stroke-dashoffset:0;
+  stroke:#0120E1;
+}
+.box3 .percent svg circle:nth-child(2)
+{
+  stroke-dashoffset:calc(440 - (440 * 70) / 100);
+  stroke:white;
+}
+
+.box3 .percent .num
+{
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:absolute;
+  color:white;
+}
+.box3 .percent .num h2
+{
+  font-size:48px;
+}
+.box3 .percent .num h2 span
+{
+  font-size:24px;
+}
+.box3 .text
+{
+  padding: 10px 0 0;
+  color:#999;
+  font-weight:700;
+  letter-spacing:1px;
+}
+/* box four */
+.box4 .percent
+{
+  width:150px;
+  height:150px;
+  position:relative;
+}
+.box4 .percent svg
+{
+  width:150px;
+  height:150px;
+  position:relative;
+}
+.box4 .percent svg circle
+{
+  width:150px;
+  height:150px;
+  fill:none;
+  stroke-width:10;
+  stroke:#000;
+  transform:translate(5px,5px);
+  stroke-dasharray:440;
+  stroke-dashoffset:440;
+  stroke-linecap:round;
+}
+.box4 .percent svg circle:nth-child(1)
+{
+  stroke-dashoffset:0;
+  stroke:#0120E1;
+}
+.box4 .percent svg circle:nth-child(2)
+{
+  stroke-dashoffset:calc(440 - (440 * 85) / 100);
+  stroke:white;
+}
+
+.box4 .percent .num
+{
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position:absolute;
+  color:white;
+}
+.box4 .percent .num h2
+{
+  font-size:48px;
+}
+.box4 .percent .num h2 span
+{
+  font-size:24px;
+}
+.box4 .text
+{
+  padding: 10px 0 0;
+  color:#999;
+  font-weight:700;
+  letter-spacing:1px;
+}
+
+
+
+
