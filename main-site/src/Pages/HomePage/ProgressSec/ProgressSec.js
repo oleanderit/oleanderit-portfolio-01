@@ -1,6 +1,10 @@
 import React from "react";
+import { CircularProgressbar } from 'react-circular-progressbar';
+import 'react-circular-progressbar/dist/styles.css';
 
 const ProgressSec = () => {
+  const percentage1 = 66;
+
 	return (
 		<>
 			<div className="bg-blue progress-sec">
@@ -12,6 +16,9 @@ const ProgressSec = () => {
 								productive business solutions
 							</h2>
 						</div>
+            <div>
+            <CircularProgressbar value={percentage1} text={`${percentage1}%`} />;
+            </div>
 					</div>
 				</div>
 			</div>
