@@ -1,0 +1,36 @@
+.content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.content h2 {
+    color: #243c4f;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+
+.content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius: 0;
+}
+
+.content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+}
+
+.content .btn {
+    min-height: 50px;
+    border-radius: 0;
+    background: rgb(0, 0, 0);
+    color: #fff;
+    font-weight: 600;
+}
+
+.content .btn:hover {
+    background: rgba(255, 62, 62, 0.774);
+}

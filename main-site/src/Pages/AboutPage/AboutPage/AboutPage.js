@@ -1,8 +1,3 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-// import { faEnvelope, faMapMarked, faPhone, faPaperPlane  } from '@fortawesome/free-solid-svg-icons';
-import { faHandshakeSimple } from '@fortawesome/free-solid-svg-icons';
-
 import React from 'react';
 import { Card, Col, Container, Dropdown, Row } from 'react-bootstrap';
 import '../AboutPage/AboutPage.css'
@@ -20,10 +15,6 @@ const AboutPage = () => {
           <Col xs={12} md={4} style={{ marginTop: '30px' }}>
             <Card style={{ width: '18rem', height: '23rem', marginLeft: '45px' }} >
               <Card.Body>
-                <FontAwesomeIcon icon={faHandshakeSimple} size="4x" style={{ marginTop: '30px' }} className="item1" />
-
-                {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-
                 <Dropdown.Divider style={{ marginTop: '30px', width: '55%', marginLeft: '50px', marginBottom: '30px' }} />
                 <Card.Title className='item2'> <b>Card Title</b> </Card.Title>
                 <Card.Text className='item3'>
@@ -38,8 +29,7 @@ const AboutPage = () => {
           </Col>
           <Col xs={12} md={4} style={{ marginTop: '30px' }}>
             <Card style={{ width: '18rem', height: '23rem', marginLeft: '45px' }} >
-              <Card.Body>
-                <FontAwesomeIcon icon={faHandshakeSimple} size="4x" style={{ marginTop: '30px' }} className="item1" />
+              <Card.Body> 
 
                 {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
 
@@ -57,8 +47,22 @@ const AboutPage = () => {
           </Col>
           <Col xs={12} md={4} style={{ marginTop: '30px' }}>
             <Card style={{ width: '18rem', height: '23rem', marginLeft: '45px' }} >
-              <Card.Body>
-                <FontAwesomeIcon icon={faHandshakeSimple} size="4x" style={{ marginTop: '30px' }} className="item1" />
+              <Card.Body>  
+                <Dropdown.Divider style={{ marginTop: '30px', width: '55%', marginLeft: '50px', marginBottom: '30px' }} />
+                <Card.Title className='item2'> <b>Card Title</b> </Card.Title>
+                <Card.Text className='item3'>
+                  Some quick example text to build on the card title and make up the bulk of
+                  the card's content.
+                </Card.Text>
+                {/* <Card.Link href="#">Card Link</Card.Link>
+                  <Card.Link href="#">Another Link</Card.Link> */}
+              </Card.Body>
+            </Card>
+
+          </Col>
+          <Col xs={12} md={4} style={{ marginTop: '30px' }}>
+            <Card style={{ width: '18rem', height: '23rem', marginLeft: '45px' }} >
+              <Card.Body> 
 
                 {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
 
@@ -76,27 +80,7 @@ const AboutPage = () => {
           </Col>
           <Col xs={12} md={4} style={{ marginTop: '30px' }}>
             <Card style={{ width: '18rem', height: '23rem', marginLeft: '45px' }} >
-              <Card.Body>
-                <FontAwesomeIcon icon={faHandshakeSimple} size="4x" style={{ marginTop: '30px' }} className="item1" />
-
-                {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
-
-                <Dropdown.Divider style={{ marginTop: '30px', width: '55%', marginLeft: '50px', marginBottom: '30px' }} />
-                <Card.Title className='item2'> <b>Card Title</b> </Card.Title>
-                <Card.Text className='item3'>
-                  Some quick example text to build on the card title and make up the bulk of
-                  the card's content.
-                </Card.Text>
-                {/* <Card.Link href="#">Card Link</Card.Link>
-                  <Card.Link href="#">Another Link</Card.Link> */}
-              </Card.Body>
-            </Card>
-
-          </Col>
-          <Col xs={12} md={4} style={{ marginTop: '30px' }}>
-            <Card style={{ width: '18rem', height: '23rem', marginLeft: '45px' }} >
-              <Card.Body>
-                <FontAwesomeIcon icon={faHandshakeSimple} size="4x" style={{ marginTop: '30px' }} className="item1" />
+              <Card.Body> 
                 {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
                 <Dropdown.Divider style={{ marginTop: '30px', width: '55%', marginLeft: '50px', marginBottom: '30px' }} />
                 <Card.Title className='item2'> <b>Card Title</b> </Card.Title>
@@ -112,8 +96,7 @@ const AboutPage = () => {
           </Col>
           <Col xs={12} md={2} style={{ marginTop: '30px' }}>
             <Card style={{ width: '18rem', height: '23rem', marginLeft: '45px' }} >
-              <Card.Body>
-                <FontAwesomeIcon icon={faHandshakeSimple} size="4x" style={{ marginTop: '30px' }} className="item1" />
+              <Card.Body> 
 
                 {/* <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle> */}
 
