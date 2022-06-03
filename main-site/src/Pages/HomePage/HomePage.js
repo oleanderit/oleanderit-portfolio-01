@@ -1,4 +1,5 @@
 import React from "react";
+import CountUpSec from "./CountUpSec/CountUpSec";
 import AboutSec from "./AboutSec/AboutSec";
 import BlogSec from "./BlogSec/BlogSec";
 import HeroSec from "./HeroSec/HeroSec";
@@ -12,6 +13,9 @@ const HomePage = () => {
 		<>
 			<NavigationBar />
 			<HeroSec />
+			{/* <ServiceSec />
+			<ProgressSec /> */}
+			<CountUpSec />
 			<AboutSec />
 			<ServiceSec />
 			<BlogSec />
