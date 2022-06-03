@@ -13,8 +13,6 @@ const HomePage = () => {
 		<>
 			<NavigationBar />
 			<HeroSec />
-			{/* <ServiceSec />
-			<ProgressSec /> */}
 			<CountUpSec />
 			<AboutSec />
 			<ServiceSec />
