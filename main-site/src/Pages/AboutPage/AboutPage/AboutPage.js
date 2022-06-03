@@ -172,7 +172,6 @@ const AboutPage = () => {
 						</Card>
 					</Col>
 				</Row>
-
 				<div className="progressBackground">
 					<h4
 						style={{ paddingTop: "50px", marginBottom: "50px", color: "white" }}
