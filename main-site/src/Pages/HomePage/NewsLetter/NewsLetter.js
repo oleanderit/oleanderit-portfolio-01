@@ -16,7 +16,10 @@ const NewsLetter = () => {
 								id="inputPassword"
 								placeholder="Password"
 							/>
-							<button type="submit" class="btn btn-blue rounded-0">
+							<button
+								type="submit"
+								class="btn btn-blue rounded-0 text-uppercase"
+							>
 								subscribe
 							</button>
 						</div>

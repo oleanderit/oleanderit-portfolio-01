@@ -1,11 +1,11 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 // import { faEnvelope, faMapMarked, faPhone, faPaperPlane  } from '@fortawesome/free-solid-svg-icons';
 import { faHandshakeSimple } from '@fortawesome/free-solid-svg-icons';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { Card, Col, Container, Dropdown, Row } from 'react-bootstrap';
-import '../AboutPage/AboutPage.css'
+import '../AboutPage/AboutPage.css';
+
+
 
 
 const AboutPage = () => {
