@@ -1,0 +1,39 @@
+.contact-sec {
+	background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+}
+
+.contact-form {
+	background: #fff;
+	width: 70%;
+}
+
+.contact-form .form-control {
+	border-radius: 1rem;
+}
+
+.contact-image {
+	text-align: center;
+}
+
+.contact-image img {
+	border-radius: 6rem;
+	width: 11%;
+	margin-top: -3%;
+	transform: rotate(29deg);
+}
+
+.contact-form form .row {
+	padding: 30px 50px;
+}
+
+.contact-form h3 {
+	text-align: center;
+	color: #0062cc;
+}
+
+
+@media only screen and (min-width: 320px) {
+	.contact-form form .row {
+		padding: 10px 20px;
+	}
+}

@@ -1,8 +1,8 @@
 import React from 'react';
-import { Button, Col, Container, Form, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import { ImLocation, ImPhone } from "react-icons/im";
-import { IoMail, IoLogoLinkedin, IoLogoTwitter, IoLogoFacebook, IoLogoInstagram } from "react-icons/io5";
-import './Footer.css'
+import { IoLogoFacebook, IoLogoInstagram, IoLogoLinkedin, IoLogoTwitter, IoMail } from "react-icons/io5";
+import './Footer.css';
 
 
 const Footer = () => {
@@ -75,12 +75,12 @@ const Footer = () => {
                         </Row>
                     </Col>
                 </Row>
-                <div class="content">
+                <div className="content">
                     <h2 style={{ color: 'white' }}>SUBSCRIBE TO OUR NEWSLETTER</h2>
-                    <div class="input-group">
-                        <input type="email" class="form-control" placeholder=" email@example.com" />
-                        <span class="input-group-btn">
-                            <button class="btn" type="submit">Subscribe Now</button>
+                    <div className="input-group">
+                        <input type="email" className="form-control" placeholder=" email@example.com" />
+                        <span className="input-group-btn">
+                            <button className="btn" type="submit">Subscribe Now</button>
                         </span>
                     </div>
                 </div>
