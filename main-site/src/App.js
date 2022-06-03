@@ -5,6 +5,7 @@ import ContactUsPage from "./Pages/ContactUsPage/ContactUsPage/ContactUsPage";
 import HomePage from "./Pages/HomePage/HomePage";
 import MyOIPage from "./Pages/MyOIPage/MyOIPage/MyOIPage";
 import ServicesPage from "./Pages/ServicesPage/ServicesPage/ServicesPage";
+import Footer from "./Pages/Shared/Footer/Footer";
 function App() {
 	return (
 		<>
@@ -15,6 +16,7 @@ function App() {
 				<Route path="myOi" element={<MyOIPage />} />
 				<Route path="contactUs" element={<ContactUsPage />} />
 			</Routes>
+			<Footer />
 		</>
 	);
 }
