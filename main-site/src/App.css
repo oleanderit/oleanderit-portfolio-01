@@ -38,3 +38,22 @@
 .bg-lightgray {
 	background-color: #f8f8ff;
 }
+
+.w-80 {
+	width: 80%;
+}
+
+.heading-line {
+	position: relative;
+}
+
+.heading-line::before {
+	position: absolute;
+	content: "";
+	top: 52%;
+	left: 15%;
+	width: 20%;
+	height: 1px;
+	background-color: #bdbdbd;
+	transform: translate(50%, 50%);
+}
