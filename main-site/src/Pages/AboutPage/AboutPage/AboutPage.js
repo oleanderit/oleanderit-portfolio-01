@@ -135,9 +135,6 @@ const AboutPage = () => {
 
 
                 <div className='progressBackground'  >
-
-                
-       
     <h4 style={{paddingTop:'50px' ,marginBottom:'50px', color:'white'}}> 
 You can check out our work. Are you ready for a better, more productive business?  </h4>
     <Container style={{ marginBottom:'100px', marginRight:'190px'}}>
