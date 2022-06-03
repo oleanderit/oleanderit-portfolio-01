@@ -21,12 +21,16 @@ const NavigationBar = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            <Link style={{ textDecoration: "none", display: 'flex', alignItems: 'center' }} to="">Home</Link>
-                            <NavDropdown title="Services" id="basic-nav-dropdown"
+                            <Link className='navBtn px-4 p-1' to="/">Home</Link>
+                            <NavDropdown
                                 show={show}
                                 onClick={showDropdown}
                                 onBlur={hideDropdown}
-                                >
+                                className="px-4 p-1"
+                                variant='light'
+                                title="Services"
+                                id="basic-nav-dropdown"
+                            >
                                 <NavDropdown.Item href="#action/3.1">Web Development</NavDropdown.Item>
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action/3.2">Web Design(UI/UX)</NavDropdown.Item>
@@ -43,9 +47,9 @@ const NavigationBar = () => {
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
                             </NavDropdown>
-                            <Link style={{ textDecoration: "none", display: 'flex', alignItems: 'center', marginRight: "10px" }} to="/about">About</Link>
-                            <Link style={{ textDecoration: "none", display: 'flex', alignItems: 'center', marginRight: "10px" }} to="/myOi">My OI</Link>
-                            <Link style={{ textDecoration: "none", display: 'flex', alignItems: 'center', marginRight: "10px" }} to="/contactUs">Contact Us</Link>
+                            <Link to="/about" className='navBtn px-4 p-1'>About</Link>
+                            <Link to="/myOi" className='navBtn px-4 p-1'>My OI</Link>
+                            <Link style={{ backgroundColor: "#0b61b3", color: 'white', }} className="px-3 p-2 navBtn" to="/contactUs">LET'S TALK</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

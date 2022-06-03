@@ -9,3 +9,17 @@
         display: none;
     }
 }
+
+.navBtn {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    Font-weight: bold;
+}
+
+.navBtn:hover {
+    background-color: #0b61b3;
+    color: white;
+
+}
