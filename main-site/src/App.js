@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import AboutPage from "./Pages/AboutPage/AboutPage/AboutPage";
-import ContactUsPage from "./Pages/ContactUsPage/ContactUsPage/ContactUsPage";
+import AboutPage from "./Pages/AboutPage/AboutPage";
+import ContactUsPage from "./Pages/ContactUsPage/ContactUsPage";
 import HomePage from "./Pages/HomePage/HomePage";
 import MyOIPage from "./Pages/MyOIPage/MyOIPage/MyOIPage";
 import ServicesPage from "./Pages/ServicesPage/ServicesPage/ServicesPage";
