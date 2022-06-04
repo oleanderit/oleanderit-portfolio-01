@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import chart from "../../../asset/chart.svg";
 import "./AboutSec.css";
 
@@ -29,9 +30,9 @@ const AboutSec = () => {
 										extremely painful. Nor again is there
 									</q>
 									<div className="mt-4">
-										<a href="/" className="btn btn-blue rounded-pill">
+										<Link to="/about" className="btn btn-blue rounded-pill">
 											Learn more
-										</a>
+										</Link>
 									</div>
 								</div>
 							</div>

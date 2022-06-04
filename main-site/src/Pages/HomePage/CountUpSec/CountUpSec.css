@@ -11,3 +11,9 @@
         2px 4px 8px 0px rgba(0, 255, 255, 0.7),
         2px 4px 16px 0px rgba(0, 255, 255, 0.7);
 }
+
+@media only screen and (max-width: 600px) {
+    .forMObileRes {
+        margin-top: 350px;
+    }
+}

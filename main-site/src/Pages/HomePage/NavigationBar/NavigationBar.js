@@ -3,14 +3,6 @@ import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import './NavigationBar.css';
 const NavigationBar = () => {
-
-    const [show, setShow] = useState(false);
-    const showDropdown = (e) => {
-        setShow(!show);
-    }
-    const hideDropdown = e => {
-        setShow(false);
-    }
     return (
         <> <Container>
             <div className='topNav'> <div style={{ display: 'flex', flexDirection: 'row', }}><p className='px-1 my-auto'>Email: info.oleanderit@gmail.com</p> <p className='px-1 my-auto'>Mobile:+123456789</p></div> <div><p className='px-1 my-auto'>Facebook</p></div></div>

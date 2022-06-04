@@ -6,12 +6,11 @@ import ThirdItem from './ThirdItem';
 
 const ServicesPage = () => {
     return (
-        <div>
-            <FirstItem/>
-            <ThirdItem/>
-            <SecondItem/>
-            <FourthItem/>
-            <h1>Hello Rumi This is Servicess PaGE</h1>
+        <div> 
+            <FirstItem />
+            <ThirdItem />
+            <SecondItem />
+            <FourthItem />
         </div>
     );
 };

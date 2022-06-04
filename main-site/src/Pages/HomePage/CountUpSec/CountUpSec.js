@@ -4,7 +4,7 @@ import './CountUpSec.css'
 import CountUp from 'react-countup';
 const CountUpSec = () => {
     return (
-        <Container>
+        <Container className="forMObileRes">
             <Row className='py-4'>
                 <Col sm="12" md="4" className='py-3'>
                     <div className='p-4 BoxOnHover'>

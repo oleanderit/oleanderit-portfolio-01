@@ -25,7 +25,7 @@ const Footer = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col sm="12" md="6" lg="2" className='pt-3' >
+                        <Col sm="12" md="6" lg="2" className='pt-3  ' >
                             <div style={{ color: 'white', display: 'flex', flexDirection: "row", }}>
                                 <div>
                                     <ImPhone style={{ margin: '10px' }} />
@@ -76,7 +76,7 @@ const Footer = () => {
                     </Col>
                 </Row>
                 <div className="content">
-                    <h2 style={{ color: 'white' }}>SUBSCRIBE TO OUR NEWSLETTER</h2>
+                    <h5 style={{ color: 'white' }}>SUBSCRIBE TO OUR NEWSLETTER</h5>
                     <div className="input-group">
                         <input type="email" className="form-control" placeholder=" email@example.com" />
                         <span className="input-group-btn">
