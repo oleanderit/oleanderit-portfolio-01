@@ -3,6 +3,7 @@ import "./App.css";
 import AboutPage from "./Pages/AboutPage/AboutPage";
 import ContactUsPage from "./Pages/ContactUsPage/ContactUsPage";
 import HomePage from "./Pages/HomePage/HomePage";
+import NavigationBar from "./Pages/HomePage/NavigationBar/NavigationBar";
 import MyOIPage from "./Pages/MyOIPage/MyOIPage/MyOIPage";
 import ServicesPage from "./Pages/ServicesPage/ServicesPage/ServicesPage";
 import Footer from "./Pages/Shared/Footer/Footer";
