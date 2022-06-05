@@ -7,6 +7,8 @@ import ServicesPage from './Pages/ServicesPage/ServicesPage/ServicesPage';
 import AboutPage from './Pages/AboutPage/AboutPage/AboutPage';
 import MyOIPage from './Pages/MyOIPage/MyOIPage/MyOIPage';
 import ContactUsPage from './Pages/ContactUsPage/ContactUsPage/ContactUsPage';
+import PartOne from './Pages/AboutPage/SomePart/PartOne';
+import PartTwo from './Pages/AboutPage/SomePart/PartTwo';
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,8 @@ function App() {
           <Route path="home" element={<Homepage />} />
           <Route path="services" element={<ServicesPage />} />
           <Route path="about" element={<AboutPage />} />
+          <Route path="abouts" element={<PartOne />} />
+          <Route path="condition" element={<PartTwo />} />
           <Route path="myOi" element={<MyOIPage />} />
           <Route path="contactUs" element={<ContactUsPage />} />
         </Routes>
