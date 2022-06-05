@@ -1,0 +1,9 @@
+.DemoPng {
+    width: 500px;
+}
+
+@media only screen and (max-width: 320px) {
+    .DemoPng {
+        width: 300px;
+    }
+}

@@ -64,8 +64,8 @@ const HeroSec = () => {
 						<div>
 							<h1> IT SOLUTION AND <br />WEBSITE DEVELOPMENT <br />
 								FOR  YOUR DIGITAL SUCCESS</h1>
-							<hr style={{ color: '#f50202', width: '80px', height: "2px" }} className="mx-auto" />
-							<h5 style={{ padding: '20px' }}>Since 2020. For Happy Clint. We transform businesses with powerful and adaptable digital solutions <br /> that satisfy the needs of today and <br /> unlock the opportunities of tomorrow.</h5>
+							<hr style={{ color: 'blue', height: "3px" }} className="mx-auto" />
+							<h5 style={{ padding: '20px' }}>Since 2020. For Happy Clint. We transform businesses with powerful and adaptable digital solutions   that satisfy the needs of today and   unlock the opportunities of tomorrow.</h5>
 						</div>
 					</div>
 

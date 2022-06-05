@@ -7,6 +7,7 @@ import MyOIPage from "./Pages/MyOIPage/MyOIPage/MyOIPage";
 import ServicesPage from "./Pages/ServicesPage/ServicesPage/ServicesPage";
 import Footer from "./Pages/Shared/Footer/Footer";
 import NavigationBar from "./Pages/HomePage/NavigationBar/NavigationBar";
+import AllProjectPage from "./Pages/AllProjectPage/AllProjectPage/AllProjectPage";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
         <Route path="about" element={<AboutPage />} />
         <Route path="myOi" element={<MyOIPage />} />
         <Route path="contactUs" element={<ContactUsPage />} />
+        <Route path="projects" element={<AllProjectPage />} />
       </Routes>
       <Footer />
     </>
