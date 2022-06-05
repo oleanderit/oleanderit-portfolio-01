@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import './NavigationBar.css'
+import './NavigationBar.css';
 const NavigationBar = () => {
 
     const [show, setShow] = useState(false);
@@ -20,31 +20,12 @@ const NavigationBar = () => {
                     <Navbar.Brand href="/">Oleander IT</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
-                            <Link style={{ textDecoration: "none", display: 'flex', alignItems: 'center' }} to="/home">Home</Link>
-                            <NavDropdown title="Services" id="basic-nav-dropdown"
-                                show={show}
-                                onMouseEnter={showDropdown}
-                                onMouseLeave={hideDropdown}>
-                                <NavDropdown.Item href="#action/3.1">Web Development</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.2">Web Design(UI/UX)</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.3">Tracking System</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.3">Graphic Design</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.3">Social Marketing</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.3">MS Excel Solution</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.3">Virtual Card Solution</NavDropdown.Item>
-                                <NavDropdown.Divider />
-                                <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                            </NavDropdown>
-                            <Link style={{ textDecoration: "none", display: 'flex', alignItems: 'center', marginRight: "10px" }} to="/about">About</Link>
-                            <Link style={{ textDecoration: "none", display: 'flex', alignItems: 'center', marginRight: "10px" }} to="/myOi">My OI</Link>
-                            <Link style={{ textDecoration: "none", display: 'flex', alignItems: 'center', marginRight: "10px" }} to="/contactUs">Contact Us</Link>
+                        <Nav className="ms-auto">
+                            <Link to="/" className='navBtn px-4 p-1' >Home</Link>
+                            <Link to="/services" className='navBtn px-4 p-1' >Services</Link>
+                            <Link to="/about" className='navBtn px-4 p-1'>About</Link>
+                            <Link to="/myOi" className='navBtn px-4 p-1'>My OI</Link>
+                            <Link style={{ backgroundColor: "#0b61b3", color: 'white', }} className="px-3 p-2 navBtn" to="/contactUs">LET'S TALK</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
