@@ -6,8 +6,7 @@ import HomePage from "./Pages/HomePage/HomePage";
 import NavigationBar from "./Pages/HomePage/NavigationBar/NavigationBar";
 import MyOIPage from "./Pages/MyOIPage/MyOIPage/MyOIPage";
 import ServicesPage from "./Pages/ServicesPage/ServicesPage/ServicesPage";
-import Footer from "./Pages/Shared/Footer/Footer";
-import NavigationBar from "./Pages/HomePage/NavigationBar/NavigationBar";
+import Footer from "./Pages/Shared/Footer/Footer"; 
 import AllProjectPage from "./Pages/AllProjectPage/AllProjectPage/AllProjectPage";
 function App() {
   return (
