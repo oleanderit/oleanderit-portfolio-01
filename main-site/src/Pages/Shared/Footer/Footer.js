@@ -3,7 +3,8 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { ImLocation, ImPhone } from "react-icons/im";
 import { IoLogoFacebook, IoLogoInstagram, IoLogoLinkedin, IoLogoTwitter, IoMail } from "react-icons/io5";
 import './Footer.css';
-
+import { HashLink } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -12,7 +13,7 @@ const Footer = () => {
                 <div className='pt-3' >
                     <Row>
                         <Col sm="12" md="6" lg="3" className='pt-3' style={{ display: 'flex', justifyContent: 'center' }}>
-                            <div> <img src="/asset/logo.jpeg" alt="" width="100" /></div>
+                            <div> <Link to="/home#home"><img src="/asset/logo.jpeg" alt="" width="100" /></Link> </div>
                         </Col>
                         <Col sm="12" md="6" lg="2" className='pt-3'>
                             <div style={{ color: 'white', display: 'flex', flexDirection: "row", }}>
@@ -20,8 +21,8 @@ const Footer = () => {
                                     <ImLocation style={{ margin: '10px' }} />
                                 </div>
                                 <div>
-                                    <p>Oleander IT,144, East Tejturi Bazar, Tejgaon,
-                                        Dhaka-1208</p>
+                                    <p > <a href="https://goo.gl/maps/gLUgfBkde8zhrwpV8" className='routeColor'>Oleander IT,144, East Tejturi Bazar, Tejgaon,
+                                        Dhaka-1208</a></p>
                                 </div>
                             </div>
                         </Col>
@@ -31,7 +32,8 @@ const Footer = () => {
                                     <ImPhone style={{ margin: '10px' }} />
                                 </div>
                                 <div>
-                                    <p style={{ margin: '5px' }}>+880 1928 407091</p>
+
+                                    <p style={{ margin: '5px' }}> <a className='routeColor' href="tel:+8801928407091">+880 1928 407091</a></p>
                                 </div>
                             </div>
                         </Col>
@@ -42,7 +44,8 @@ const Footer = () => {
                                         <IoMail style={{ margin: '10px' }} />
                                     </div>
                                     <div>
-                                        <p style={{ margin: '5px' }}>info.oleanderit@gmail.com</p>
+
+                                        <p style={{ margin: '5px' }}><a className='routeColor' href="mailto:info.oleanderit@gmail.com">info.oleanderit@gmail.com</a></p>
                                     </div>
                                 </div>
                             </div>
@@ -62,16 +65,41 @@ const Footer = () => {
                 <Row style={{ color: 'white' }}>
                     <Col sm="12" lg="10">
                         <Row >
-                            <Col sm="12" lg="2"><p>About Oleander IT</p></Col>
-                            <Col sm="12" lg="2"><p>Become Our Agent</p></Col>
-                            <Col sm="12" lg="2"><p>Join Our Affiliate Programme</p></Col>
-                            <Col sm="12" lg="2"><p>Privacy Policy</p></Col>
-                            <Col sm="12" lg="2"><p>Terms of Use</p></Col>
+                            <Col sm="12" lg="2"> <HashLink
+                                to="about#home"
+                                className='routeColor'
+                            >About Oleander IT</HashLink></Col>
+                            <Col sm="12" lg="2">
+                                <HashLink
+                                    className='routeColor'
+                                    to="becomeAgent#home"
+                                >Become Our Agent</HashLink>
+                            </Col>
+                            <Col sm="12" lg="2">
+                                <HashLink
+                                    className='routeColor'
+                                    to="affiliateProgramme#home"
+                                >Join Our Affiliate Programme</HashLink></Col>
+                            <Col sm="12" lg="2">
+                                <HashLink
+                                    className='routeColor'
+                                    to="privacy-policy#home"
+                                >Privacy Policy</HashLink>
+                            </Col>
+                            <Col sm="12" lg="2" >
+                                <HashLink
+                                    className='routeColor'
+                                    to="trams-condition#home"
+                                >Trams Condition</HashLink>
+                            </Col>
                         </Row>
                     </Col>
                     <Col sm="12" lg="2">
                         <Row>
-                            <Col sm="12" lg="12"><p>Book a meeting with Us</p></Col>
+                            <Col sm="12" lg="12"><HashLink
+                                to="contactUs#home"
+                                className='routeColor'
+                            >Book a meeting with Us</HashLink></Col>
                         </Row>
                     </Col>
                 </Row>

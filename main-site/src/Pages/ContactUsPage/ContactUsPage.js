@@ -82,8 +82,8 @@ const ContactUsPage = () => {
 									></textarea>
 								</div>
 							</div>
-							<div className="mt-4 mt-md-0">
-								<button type="submit" className="btn btn-blue w-full col-md-12">
+							<div className="mt-4 mt-md-0 d-flex justify-content-center">
+								<button type="submit" className="btn btn-blue w-50  col-md-12">
 									Send message
 								</button>
 							</div>
