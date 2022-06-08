@@ -14,8 +14,8 @@
 
 .deck {
   position: absolute;
-  width: 500px;
-  height: 600px;
+  width: 400px;
+  height: 500px;
   will-change: transform;
   display: flex;
   align-items: center;
@@ -47,19 +47,19 @@
 @media only screen and (max-width: 600px) {
   .headerDiv1 {
     align-items: flex-start;
-    padding-top: 30px; 
+    padding-top: 30px;
   }
 
   .deck {
     width: 300px;
-    height: 600px;
+    height: 500px;
   }
 
   .deck>div {
-    width: 50vh;
-    max-width: 500px;
-    height: 60vh;
-    max-height: 650px;
+    width: 45vh;
+    max-width: 450px;
+    height: 55vh;
+    max-height: 550px;
   }
 }
 

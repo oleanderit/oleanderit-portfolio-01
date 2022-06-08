@@ -20,7 +20,7 @@ function App() {
         <Route path="/home" element={<HomePage />} />
         <Route path="services" element={<ServicesPage />} />
         <Route path="about" element={<AboutPage />} />
-        <Route path="myOi" element={<MyOIPage />} />
+        {/* <Route path="myOi" element={<MyOIPage />} /> */}
         <Route path="contactUs" element={<ContactUsPage />} />
         <Route path="projects" element={<AllProjectPage />} />
         <Route path="trams-condition" element={<TramsAndConditionpage />} />

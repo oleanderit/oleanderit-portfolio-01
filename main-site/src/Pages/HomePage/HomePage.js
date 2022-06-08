@@ -9,8 +9,8 @@ const HomePage = () => {
 	return (
 		<>
 			<HeroSec />
-			<CountUpSec />
 			<ServiceSec />
+			<CountUpSec />
 			<DemoSec />
 		</>
 	);

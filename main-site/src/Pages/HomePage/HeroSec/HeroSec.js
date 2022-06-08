@@ -2,13 +2,20 @@ import React, { useState } from 'react'
 import { useSprings, animated, to as interpolate } from '@react-spring/web'
 import { useDrag } from 'react-use-gesture'
 import styles from './styles.module.css'
+import img1 from '../../../asset/blogs/card-1.jpg'
+import img2 from '../../../asset/blogs/card-2.jpg'
+import img3 from '../../../asset/blogs/card-3.jpg'
+import img4 from '../../../asset/blogs/card-4.jpg'
+import img5 from '../../../asset/blogs/card-5.jpg'
+import img6 from '../../../asset/blogs/card-6.jpg'
 import { Col, Container, Row } from 'react-bootstrap'
 const cards = [
-	'https://upload.wikimedia.org/wikipedia/commons/f/f5/RWS_Tarot_08_Strength.jpg',
-	'https://upload.wikimedia.org/wikipedia/commons/5/53/RWS_Tarot_16_Tower.jpg',
-	'https://upload.wikimedia.org/wikipedia/commons/9/9b/RWS_Tarot_07_Chariot.jpg',
-	'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/RWS_Tarot_02_High_Priestess.jpg/690px-RWS_Tarot_02_High_Priestess.jpg',
-	'https://upload.wikimedia.org/wikipedia/commons/d/de/RWS_Tarot_01_Magician.jpg',
+	`${img1}`,
+	`${img2}`,
+	`${img3}`,
+	`${img4}`,
+	`${img5}`,
+	`${img6}`,
 ]
 
 // These two are just helpers, they curate spring data, values that are later being interpolated into css
@@ -79,7 +86,7 @@ const HeroSec = () => {
 									{...bind(i)}
 									style={{
 										transform: interpolate([rot, scale], trans),
-										backgroundImage: `url(${cards[i]})`,
+										backgroundImage: `url(${cards[i]})`, 
 									}}
 								/>
 							</animated.div>

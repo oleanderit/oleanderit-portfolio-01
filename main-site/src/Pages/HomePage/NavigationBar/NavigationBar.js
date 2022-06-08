@@ -16,7 +16,7 @@ const NavigationBar = () => {
                             <Link to="/" className='navBtn px-4 p-1' >Home</Link>
                             <Link to="/services" className='navBtn px-4 p-1' >Services</Link>
                             <Link to="/about" className='navBtn px-4 p-1'>About</Link>
-                            <Link to="/myOi" className='navBtn px-4 p-1'>My OI</Link>
+                            {/* <Link to="/myOi" className='navBtn px-4 p-1'>My OI</Link> */}
                             <Link style={{ backgroundColor: "#0b61b3", color: 'white', }} className="px-3 p-2 navBtn" to="/contactUs">LET'S TALK</Link>
                         </Nav>
                     </Navbar.Collapse>
