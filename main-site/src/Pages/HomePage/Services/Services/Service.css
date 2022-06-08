@@ -1,0 +1,14 @@
+.boxDesign {
+    text-align: center;
+    background-color: white;
+    height: 100px;
+   
+    
+}
+
+.boxDesign:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #0b61b3;
+    /* text-align: white; */
+}

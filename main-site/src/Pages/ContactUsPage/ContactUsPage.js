@@ -27,7 +27,7 @@ const ContactUsPage = () => {
 	};
 
 	return (
-		<div className="contact-sec py-5">
+		<div className="contact-sec py-5" id='home'>
 			<div className="container mx-auto py-5">
 				<div className="contact-form mx-auto">
 					<div className="contact-image">

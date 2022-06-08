@@ -6,7 +6,7 @@ import AboutSec from "../HomePage/AboutSec/AboutSec";
 
 const AboutPage = () => {
 	return (
-		<div>
+		<div id='home'>
 			<AboutSec></AboutSec>
 		</div>
 	);

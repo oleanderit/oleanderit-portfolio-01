@@ -11,6 +11,7 @@ import AllProjectPage from "./Pages/AllProjectPage/AllProjectPage/AllProjectPage
 import TramsAndConditionpage from "./Pages/TramsAndConditionpage/TramsAndConditionpage/TramsAndConditionpage";
 import PrivacyPolicy from "./Pages/PrivacyPolicy/PrivacyPolicy/PrivacyPolicy";
 import AffiliateProgramme from "./Pages/AffiliateProgramme/AffiliateProgramme/AffiliateProgramme";
+import WebDesignPage from "./Pages/ServicesPage/SingleServicesPage/WebDesignPage/WebDesignPage";
 function App() {
   return (
     <>
@@ -28,6 +29,7 @@ function App() {
         <Route path="privacy-policy" element={<PrivacyPolicy />} />
         <Route path="affiliateProgramme" element={<AffiliateProgramme />} />
         <Route path="becomeAgent" element={<AffiliateProgramme />} />
+        <Route path="web-designPage" element={<WebDesignPage />} />
       </Routes>
       <Footer />
     </>
