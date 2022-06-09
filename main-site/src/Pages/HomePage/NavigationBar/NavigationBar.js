@@ -5,7 +5,7 @@ import './NavigationBar.css';
 const NavigationBar = () => {
     return (
         <> <Container id='home'>
-            <div className='topNav'> <div style={{ display: 'flex', flexDirection: 'row', }}><p className='px-1 my-auto'>Email: info.oleanderit@gmail.com</p> <p className='px-1 my-auto'>Mobile:+123456789</p></div> <div><p className='px-1 my-auto'>Facebook</p></div></div>
+            <div className='topNav'> <div style={{ display: 'flex', flexDirection: 'row', }}><p className='px-1 my-auto'>Email: info.oleanderit@gmail.com</p> <p className='px-1 my-auto'>Mobile:+880 1928 407091</p></div> <div><p className='px-1 my-auto'>Facebook</p></div></div>
         </Container>
             <Navbar bg="light" expand="lg" sticky="top">
                 <Container>
